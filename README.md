@@ -29,3 +29,4 @@ A static HTML website for photographer, R&B/HipHop artist, and all around multi-
 - [Easily invert colors of PNGs](https://wtools.io/invert-image-colors)
 - [Generate Favicons from PNGs](https://favicon.io/favicon-converter/)
 - [Generate metatags for link previews](https://metatags.io/)
+- [Compress images](https://imagecompressor.com/)
