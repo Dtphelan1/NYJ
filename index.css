@@ -11,13 +11,13 @@ html body h1 {
 }
 
 main {
-  background-image: url("public/images/inkblot-1.png");
+  background-image: url("public/images/inkblot-1-min.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.fade-1 {
+.fade-0 {
   /* Start with 0 opacity; fade in */
   opacity: 0;
   -webkit-transition: opacity 1.5s ease-out 0.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -27,7 +27,7 @@ main {
   transition: opacity 1.5s ease-out 0.5s;
 }
 
-.fade-2 {
+.fade-1 {
   /* Start with 0 opacity; fade in */
   opacity: 0;
   -webkit-transition: opacity 1.5s ease-out 1.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -37,55 +37,26 @@ main {
   transition: opacity 1.5s ease-out 1.5s;
 }
 
+.fade-2 {
+  /* Start with 0 opacity; fade in */
+  opacity: 0;
+  -webkit-transition: opacity 1.5s ease-out 2.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-transition: opacity 1.5s ease-out 2.5s; /* Firefox < 16 */
+  -ms-transition: opacity 1.5s ease-out 2.5s; /* Internet Explorer */
+  -o-transition: opacity 1.5s ease-out 2.5s; /* Opera < 12.1 */
+  transition: opacity 1.5s ease-out 2.5s;
+}
+
 .fade-3 {
   /* Start with 0 opacity; fade in */
   opacity: 0;
-  -webkit-transition: opacity 1s ease-out 2.5s; /* Safari, Chrome and Opera > 12.1 */
-  -moz-transition: opacity 1s ease-out 2.5s; /* Firefox < 16 */
-  -ms-transition: opacity 1s ease-out 2.5s; /* Internet Explorer */
-  -o-transition: opacity 1s ease-out 2.5s; /* Opera < 12.1 */
-  transition: opacity 1s ease-out 2.5s;
+  -webkit-transition: opacity 1s ease-out 3.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-transition: opacity 1s ease-out 3.5s; /* Firefox < 16 */
+  -ms-transition: opacity 1s ease-out 3.5s; /* Internet Explorer */
+  -o-transition: opacity 1s ease-out 3.5s; /* Opera < 12.1 */
+  transition: opacity 1s ease-out 3.5s;
 }
 
 .load {
   opacity: 1;
 }
-
-/* .inkblot-fade {
-  animation-name: inkblot-fade;
-  animation-delay: 0;
-  animation-iteration-count: infinite;
-  animation-direction: forward;
-}
-
-@keyframes inkblot-fade {
-  0% {
-    opacity: 0;
-    background-image: url("/public/images/inkblot-1.jpg");
-  }
-
-  25% {
-    opacity: 1;
-    background-image: url("/public/images/inkblot-1.jpg");
-  }
-
-  50% {
-    opacity: 0;
-    background-image: url("/public/images/inkblot-1.jpg");
-  }
-
-  51% {
-    opacity: 0;
-    background-image: url("/public/images/inkblot-2.jpg");
-  }
-
-  75% {
-    opacity: 1;
-    background-image: url("/public/images/inkblot-2.jpg");
-  }
-
-  100% {
-    opacity: 0;
-    background-image: url("/public/images/inkblot-2.jpg");
-  }
-} */
