@@ -59,31 +59,31 @@
 @keyframes inkblot-fade {
   0% {
     opacity: 0;
-    background-image: url("/images/inkblot-1.jpg");
+    background-image: url("/public/images/inkblot-1.jpg");
   }
 
   25% {
     opacity: 1;
-    background-image: url("/images/inkblot-1.jpg");
+    background-image: url("/public/images/inkblot-1.jpg");
   }
 
   50% {
     opacity: 0;
-    background-image: url("/images/inkblot-1.jpg");
+    background-image: url("/public/images/inkblot-1.jpg");
   }
 
   51% {
     opacity: 0;
-    background-image: url("/images/inkblot-2.jpg");
+    background-image: url("/public/images/inkblot-2.jpg");
   }
 
   75% {
     opacity: 1;
-    background-image: url("/images/inkblot-2.jpg");
+    background-image: url("/public/images/inkblot-2.jpg");
   }
 
   100% {
     opacity: 0;
-    background-image: url("/images/inkblot-2.jpg");
+    background-image: url("/public/images/inkblot-2.jpg");
   }
 } */
