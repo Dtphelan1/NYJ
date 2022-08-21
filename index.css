@@ -1,26 +1,13 @@
-@font-face {
-  font-family: "Cinzel Decorative";
-  src: url("public/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf");
+html {
+  overflow: hidden;
 }
-@font-face {
-  font-family: "Cinzel Decorative";
-  font-style: Bold;
-  font-weight: 700;
-  src: url("public/fonts/Cinzel_Decorative/CinzelDecorative-Bold.ttf");
-}
-@font-face {
-  font-family: "Cinzel Decorative";
-  font-style: Black;
-  font-weight: 900;
-  src: url("public/fonts/Cinzel_Decorative/CinzelDecorative-Black.ttf");
+
+html body {
+  font-family: BenchNine;
 }
 
 html body h1 {
   font-family: Cinzel Decorative;
-}
-
-html {
-  overflow: hidden;
 }
 
 main {
