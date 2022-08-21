@@ -2,75 +2,107 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>NYJ Music</title>
-    <meta name="description" content="NYJ Music is a rising Hip-Hop-slash-R&B artist writing rhymes in Far Rockaway, NY. Taking inspiration from gold-school, east-coast hip hop and soulful R&B spirituals, NYJ Music is dropping bars and belting melodies that show respect to the Masters, and a willingness to kill them on the road. ">
-    <meta name="author" content="Dylan Phelan">
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap4-neon-glow.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel='stylesheet' href='//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
-    <link rel='stylesheet' href='/index.css'>
-    
+    <meta
+      name="description"
+      content="NYJ Music is a rising Hip-Hop-slash-R&B artist writing rhymes in Far Rockaway, NY. Taking inspiration from gold-school, east-coast hip hop and soulful R&B spirituals, NYJ Music is dropping bars and belting melodies that show respect to the Masters, and a willingness to kill them on the road. "
+    />
+    <meta name="author" content="Dylan Phelan" />
+    <!-- Tailwind CSS and Configs -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              black: "#090908",
+              white: "#f5f7f7",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <link rel="stylesheet" href="/index.css" />
   </head>
+  <body class="text-white ">
+    <main class="h-screen w-screen bg-black border-8 border-white rounded-3xl">
+      <h1 class="w-96 mx-auto my-16 text-center text-8xl">NYJ Music</h1>
+      <img class="w-1/3 h-1/3 mx-auto mix-blend-difference" src="/images/New Inkblot.png"/>
+      <div class="container fade-1">
+        <a
+          class="d-flex justify-content-center"
+          href="https://ffm.to/howtolovenyj"
+        >
+          <img id="nyj-logo" src="/images/logo.png" alt="NYJ Logo" />
+        </a>
 
-  <body>
-    <div class="jumbotron bg-transparent radius-0">
-      <div class="container">
-          <div class="row fade-1 mb-4">
-            <div class="col-xl-12 d-flex justify-content-center mb-2">
-              <h1>NYJ Music</h1>
-            </div>
-            <div class="col-xl-12 d-flex justify-content-center">
-              <a class="d-flex justify-content-center" href="https://ffm.to/howtolovenyj">
-                <img id="nyj-logo" src="/images/logo.png" alt="NYJ Logo">
-              </a> 
-            </div>
-          </div>
-          <div class="row fade-2">
-            <div class="col-xl-12 text-center d-flex justify-content-center">
-              <h3 class="mt-4 mb-4 mr-2 ml-2">New York. Far Rock. Real Music.</h3>
-            </div>
-          </div>
-          <div class="row fade-2">
-            <div class="col-xl-12 text-center d-flex justify-content-center">
-                <p class="mt-4 mb-4">Bookings: <a href="mailto:NYJ7MUSIC@gmail.com">NYJ7MUSIC@GMAIL.COM</a></p>
-              </div>
-            </div>
-          </div>
+        <h3 class="fade-2 mt-4 mb-4 mr-2 ml-2">
+          New York. Far Rock. Real Music.
+        </h3>
+      </div>
     </div>
 
-    <div id="icons-bar" class="d-flex fixed-bottom justify-content-around fade-3">
-        <a href="https://open.spotify.com/artist/1VwE7PZNcv18mLkUglV9LN" 
-          class="fab fa-2x fa-spotify m-2 text-light">
-        </a>
-        <a href="https://www.facebook.com/NYJMusic/" 
-          class="fab fa-2x fa-facebook m-2 text-light">
-        </a>
-        <a href="https://soundcloud.com/nyjmusic" 
-          class="fab fa-2x fa-soundcloud m-2 text-light">
-        </a>
-        <a href="https://www.instagram.com/nyjmusic/" 
-          class="fab fa-2x fa-instagram m-2 text-light">
-        </a>
-        <a href="https://music.apple.com/us/artist/nyj/1361377266" 
-          class="fab fa-2x fa-apple m-2 text-light">
-        </a>
-        <a href="https://twitter.com/NYJthatsme" 
-          class="fab fa-2x fa-twitter m-2 text-light">
-        </a>
+    <div id="icons-bar" class="flex fixed-bottom justify-content-around fade-3">
+      <a
+        href="https://open.spotify.com/artist/1VwE7PZNcv18mLkUglV9LN"
+        class="fab fa-2x fa-spotify m-2 text-light"
+      >
+      </a>
+      <a
+        href="https://www.facebook.com/NYJMusic/"
+        class="fab fa-2x fa-facebook m-2 text-light"
+      >
+      </a>
+      <a
+        href="https://soundcloud.com/nyjmusic"
+        class="fab fa-2x fa-soundcloud m-2 text-light"
+      >
+      </a>
+      <a
+        href="https://www.instagram.com/nyjmusic/"
+        class="fab fa-2x fa-instagram m-2 text-light"
+      >
+      </a>
+      <a
+        href="https://music.apple.com/us/artist/nyj/1361377266"
+        class="fab fa-2x fa-apple m-2 text-light"
+      >
+      </a>
+      <a
+        href="https://twitter.com/NYJthatsme"
+        class="fab fa-2x fa-twitter m-2 text-light"
+      >
+      </a>
     </div>
 
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      <script src="/fade-in.js"></script>
+    <!-- JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/fade-in.js"></script>
   </body>
 </html>

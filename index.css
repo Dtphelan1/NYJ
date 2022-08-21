@@ -1,51 +1,89 @@
-.fade-1 { 
-    /* Start with 0 opacity; fade in */
-    opacity: 0;
-    -webkit-transition: opacity 1.5s ease-out 0.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-transition: opacity 1.5s ease-out 0.5s; /* Firefox < 16 */
-        -ms-transition: opacity 1.5s ease-out 0.5s; /* Internet Explorer */
-         -o-transition: opacity 1.5s ease-out 0.5s; /* Opera < 12.1 */
-            transition: opacity 1.5s ease-out 0.5s;
+.fade-1 {
+  /* Start with 0 opacity; fade in */
+  opacity: 0;
+  -webkit-transition: opacity 1.5s ease-out 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-transition: opacity 1.5s ease-out 0.5s; /* Firefox < 16 */
+  -ms-transition: opacity 1.5s ease-out 0.5s; /* Internet Explorer */
+  -o-transition: opacity 1.5s ease-out 0.5s; /* Opera < 12.1 */
+  transition: opacity 1.5s ease-out 0.5s;
 }
 
-.fade-2 { 
-    /* Start with 0 opacity; fade in */
-    opacity: 0;
-    -webkit-transition: opacity 1.5s ease-out 1.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-transition: opacity 1.5s ease-out 1.5s; /* Firefox < 16 */
-        -ms-transition: opacity 1.5s ease-out 1.5s; /* Internet Explorer */
-         -o-transition: opacity 1.5s ease-out 1.5s; /* Opera < 12.1 */
-            transition: opacity 1.5s ease-out 1.5s;
+.fade-2 {
+  /* Start with 0 opacity; fade in */
+  opacity: 0;
+  -webkit-transition: opacity 1.5s ease-out 1.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-transition: opacity 1.5s ease-out 1.5s; /* Firefox < 16 */
+  -ms-transition: opacity 1.5s ease-out 1.5s; /* Internet Explorer */
+  -o-transition: opacity 1.5s ease-out 1.5s; /* Opera < 12.1 */
+  transition: opacity 1.5s ease-out 1.5s;
 }
-
 
 #nyj-logo {
-   height: 250px;
-   width: 250px;
+  height: 250px;
+  width: 250px;
 }
 
-.fade-3 { 
-    /* Start with 0 opacity; fade in */
-    opacity: 0;
-    -webkit-transition: opacity 1s ease-out 2.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-transition: opacity 1s ease-out 2.5s; /* Firefox < 16 */
-        -ms-transition: opacity 1s ease-out 2.5s; /* Internet Explorer */
-         -o-transition: opacity 1s ease-out 2.5s; /* Opera < 12.1 */
-            transition: opacity 1s ease-out 2.5s;
+.fade-3 {
+  /* Start with 0 opacity; fade in */
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-out 2.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-transition: opacity 1s ease-out 2.5s; /* Firefox < 16 */
+  -ms-transition: opacity 1s ease-out 2.5s; /* Internet Explorer */
+  -o-transition: opacity 1s ease-out 2.5s; /* Opera < 12.1 */
+  transition: opacity 1s ease-out 2.5s;
 }
 
 .load {
-    opacity: 1
+  opacity: 1;
 }
 
 #icons-bar {
-   margin: auto;
-   max-width: 1100px;
+  margin: auto;
+  max-width: 1100px;
 }
 
 @media (max-width: 767px) {
-   #nyj-logo {
-      height: 180px;
-      width: 180px;
-   }
+  #nyj-logo {
+    height: 180px;
+    width: 180px;
+  }
 }
+
+/* .inkblot-fade {
+  animation-name: inkblot-fade;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+}
+
+@keyframes inkblot-fade {
+  0% {
+    opacity: 0;
+    background-image: url("/images/inkblot-1.jpg");
+  }
+
+  25% {
+    opacity: 1;
+    background-image: url("/images/inkblot-1.jpg");
+  }
+
+  50% {
+    opacity: 0;
+    background-image: url("/images/inkblot-1.jpg");
+  }
+
+  51% {
+    opacity: 0;
+    background-image: url("/images/inkblot-2.jpg");
+  }
+
+  75% {
+    opacity: 1;
+    background-image: url("/images/inkblot-2.jpg");
+  }
+
+  100% {
+    opacity: 0;
+    background-image: url("/images/inkblot-2.jpg");
+  }
+} */
