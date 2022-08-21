@@ -46,62 +46,71 @@
     <!-- Styles -->
     <link rel="stylesheet" href="/index.css" />
   </head>
-  <body class="text-white">
-    <main class="h-screen w-screen bg-black border-8 border-white rounded-3xl">
-      <h1 class="w-96 mx-auto my-16 text-center text-8xl">NYJ Music</h1>
-      <img
-        class="w-1/3 h-1/2 mx-auto invert aspect-auto"
-        src="/public/images/inkblot-1.png"
-      />
-      <!-- <div class="container fade-1"> -->
-      <!-- <a
+  <body class="text-white overflow-hidden">
+    <div
+      id="wrapper"
+      class="h-screen w-screen bg-black border-8 border-white rounded-3xl py-16"
+    >
+      <main class="w-full h-full">
+        <h1 class="w-80 mx-auto text-center text-8xl mix-blend-difference">
+          NYJ Music
+        </h1>
+        <!-- <div class="container fade-1"> -->
+        <!-- <a
         class="d-flex justify-content-center"
         href="https://ffm.to/howtolovenyj"
       >
         <img id="nyj-logo" src="/public/images/logo.png" alt="NYJ Logo" />
       </a> -->
 
-      <h3 class="fade-2 mt-4 mb-4 mr-2 ml-2">
-        New York. Far Rock. Real Music.
-      </h3>
+        <div
+          class="w-full flex justify-between items-center mix-blend-difference fade-2 absolute bottom-36 left-0 px-2 md:bottom-auto h-auto md:h-1/2 xl:px-48"
+        >
+          <button class="border-2 border-white px-8 py-4 block mx-4 md:mx-16">
+            Sounds
+          </button>
+          <button class="border-2 border-white px-8 py-4 block mx-4 md:mx-16">
+            Designs
+          </button>
+        </div>
 
-      <div
-        id="icons-bar"
-        class="flex fixed-bottom justify-content-around fade-3"
-      >
-        <a
-          href="https://open.spotify.com/artist/1VwE7PZNcv18mLkUglV9LN"
-          class="fab fa-2x fa-spotify m-2 text-light"
+        <div
+          id="icons-bar"
+          class="w-full fixed bottom-0 left-0 px-2 mb-4 flex justify-around items-center fade-3 xl:px-48"
         >
-        </a>
-        <a
-          href="https://www.facebook.com/NYJMusic/"
-          class="fab fa-2x fa-facebook m-2 text-light"
-        >
-        </a>
-        <a
-          href="https://soundcloud.com/nyjmusic"
-          class="fab fa-2x fa-soundcloud m-2 text-light"
-        >
-        </a>
-        <a
-          href="https://www.instagram.com/nyjmusic/"
-          class="fab fa-2x fa-instagram m-2 text-light"
-        >
-        </a>
-        <a
-          href="https://music.apple.com/us/artist/nyj/1361377266"
-          class="fab fa-2x fa-apple m-2 text-light"
-        >
-        </a>
-        <a
-          href="https://twitter.com/NYJthatsme"
-          class="fab fa-2x fa-twitter m-2 text-light"
-        >
-        </a>
-      </div>
-    </main>
-
+          <a
+            href="https://open.spotify.com/artist/1VwE7PZNcv18mLkUglV9LN"
+            class="fab fa-2x fa-spotify text-light mx-2 md:mx-4"
+          >
+          </a>
+          <a
+            href="https://www.facebook.com/NYJMusic/"
+            class="fab fa-2x fa-facebook text-light mx-2 md:mx-4"
+          >
+          </a>
+          <a
+            href="https://soundcloud.com/nyjmusic"
+            class="fab fa-2x fa-soundcloud text-light mx-2 md:mx-4"
+          >
+          </a>
+          <a
+            href="https://www.instagram.com/nyjmusic/"
+            class="fab fa-2x fa-instagram text-light mx-2 md:mx-4"
+          >
+          </a>
+          <a
+            href="https://music.apple.com/us/artist/nyj/1361377266"
+            class="fab fa-2x fa-apple text-light mx-2 md:mx-4"
+          >
+          </a>
+          <a
+            href="https://twitter.com/NYJthatsme"
+            class="fab fa-2x fa-twitter text-light mx-2 md:mx-4"
+          >
+          </a>
+        </div>
+      </main>
+    </div>
     <!-- JavaScript -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
