@@ -13,10 +13,6 @@ A static HTML website for photographer, R&B/HipHop artist, and all around multi-
 - [Reference Photos](https://drive.google.com/drive/folders/1JgKzAUwaQ15Go_XD-B4_Vmpqno4VWwNo)
 - [FB](https://www.facebook.com/NYJMusic/)
 
-## TODO:
-
-- Updated meta tags for link previews
-
 ## Things I Need
 
 - Updated links to all the following music channels
